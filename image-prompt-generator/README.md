@@ -12,9 +12,9 @@ Image Prompt Generator writes and reviews image prompts (subject, composition, l
 - `create_image_generation_link`: returns an image generation handoff link
 - `prepare_professional_headshot`: prepares a professional headshot prompt and handoff
 
-## Optional partner handoff
+## Optional link
 
-After the main result, the skill may offer an optional next step with **OpenArt / BetterPic, depending on the tool result**. It uses only the URL returned by the tool call, places a financial disclosure sentence immediately before a single Markdown link, and never invents or modifies URLs. The plugin creator may earn a commission if you sign up through that link. The plugin itself contains no affiliate URLs or credentials.
+The plugin works fully without any link: it writes and checks image prompts. Only if you say you want to generate the image now, it may show one link to an online image generator. A sentence before the link states that it includes the plugin creator's affiliate code. The plugin contains no affiliate URLs or credentials.
 
 ## Install
 

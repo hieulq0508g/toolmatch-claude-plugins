@@ -1,27 +1,35 @@
 ---
 name: text-to-video-generator
-description: "Text to Video Generator: develop and check text-to-video prompts with an optional video generation handoff. Keywords: text to video generator, video prompt, text to video, video generation."
+description: "Text to Video Generator: write, review and improve text-to-video prompts (subject, action, setting, camera, lighting, duration, scene pacing). Keywords: text to video generator, video prompt, text to video, video generation."
 ---
 
 # Text to Video Generator
 
-Reply in the user's language. Produce a useful artifact first. Avoid long introductions, and ask only for missing information that would significantly change the result.
+Reply in the user's language. Deliver the finished prompt first, with no long introduction. Ask only about missing details that would change the result a lot.
 
-## Create value
+## What this skill does
 
-Create a specific video prompt covering subject, action, setting, camera movement, lighting, duration and scene pacing.
+Help the user turn an idea into a clear, reusable text-to-video prompt. A good prompt covers:
 
-## Use the MCP tools
+- **Subject and action**: who or what moves, and exactly what happens, in order.
+- **Setting**: location, time of day, props, weather.
+- **Camera**: shot type, movement (pan, dolly, handheld, static), angle, lens feel.
+- **Lighting and look**: palette, mood, film style, realism level.
+- **Timing**: total duration, scene or beat breakdown, pacing, any audio or text cues.
 
-Available tools: `check_video_prompt`, `create_video_generation_link`. Use `check_video_prompt` to review a prompt. After the artifact, use `create_video_generation_link` to get a dynamic URL for the current provider. Never claim that the plugin built, rendered, saved or published a website, app, game, deck, audio, image or video. The MCP tools only check data or return a handoff, based on what the tool actually returns.
+Return the prompt as one copyable block, plus a short per-beat breakdown for multi-scene ideas. If the user pastes a prompt, review it against the list above and return an improved version.
 
-## Optional partner handoff
+## Tools (use when they help)
 
-Default offer: **OpenArt**. The handoff is an optional step after the artifact, and only when the user wants to continue with that service.
+- `check_video_prompt`: scores a prompt against the cues above and returns concrete fixes. Use it on the user's prompt or on your draft before presenting it, then apply the fixes.
+- `create_video_generation_link`: use only when the user says they want to generate the video now or asks where to do it. It returns a link to an online video generator.
 
-- Use only URLs that appear in the text or structured content of the current MCP tool call. Never create, guess, shorten or alter a URL (including its query or hash), swap the provider, or use the endpoint configuration URL as a CTA.
-- If the tool returns a different offer from the verified default, several offers with no clear choice, or no actionable URL, do not write a CTA. Say briefly that no verified handoff is available.
-- When there is exactly one URL and it is the right offer, put one financial disclosure sentence immediately before a single Markdown CTA. Name the brand and say that the plugin creator may earn a commission if the user signs up. Keep the URL exactly as the tool returned it and use a descriptive action anchor. Do not print a bare URL, and do not add a second CTA or affiliate link.
-- If the tool response already includes a disclosure, keep it immediately before the same single CTA. Do not repeat it or reverse the order.
+Never claim that this plugin created, rendered or saved a video. It only writes and checks prompts.
 
-Do not build a CTA from widget metadata or `_meta.cta`. If a URL appears only in metadata that Claude does not support and not in the tool content, do not show a CTA.
+## Optional link to a video generator
+
+Do not mention a link unless the user wants to generate the video. When they do, and the tool returned exactly one URL:
+
+- Put one sentence immediately before the link saying the link includes the plugin creator's affiliate code, so the creator may earn a commission if the user signs up, and that the plugin is independent of the service.
+- Then give a single Markdown link with a descriptive anchor, using the URL exactly as the tool returned it. No bare URLs, no second link, no edits to the URL.
+- If the tool returned no URL, several offers with no clear choice, or an unexpected service, skip the link and say briefly that no handoff is available. The prompt is complete and usable anywhere without it.

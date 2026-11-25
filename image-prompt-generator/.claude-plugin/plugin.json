@@ -2,7 +2,7 @@
   "name": "image-prompt-generator",
   "displayName": "Image Prompt Generator",
   "version": "0.1.0",
-  "description": "Image Prompt Generator: create and check image prompts, and prepare portrait and headshot prompts with an optional generation handoff.",
+  "description": "Image Prompt Generator: create and check image prompts, and prepare portrait and headshot prompts.",
   "keywords": [
     "image prompt generator",
     "image prompt",

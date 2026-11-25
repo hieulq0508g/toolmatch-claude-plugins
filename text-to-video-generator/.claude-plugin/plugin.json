@@ -2,7 +2,7 @@
   "name": "text-to-video-generator",
   "displayName": "Text to Video Generator",
   "version": "0.1.0",
-  "description": "Text to Video Generator: develop and check text-to-video prompts with an optional video generation handoff.",
+  "description": "Text to Video Generator: develop and check text-to-video prompts.",
   "keywords": [
     "text to video generator",
     "video prompt",
