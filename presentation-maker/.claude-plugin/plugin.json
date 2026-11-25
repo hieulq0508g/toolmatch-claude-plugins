@@ -2,7 +2,7 @@
   "name": "presentation-maker",
   "displayName": "Presentation Maker",
   "version": "0.1.0",
-  "description": "Presentation Maker: tạo presentation outline, kiểm tra deck và phân tích dữ liệu cho bài thuyết trình.",
+  "description": "Presentation Maker: create a presentation outline, review a slide deck and analyze metrics for a presentation, with an optional design handoff.",
   "keywords": [
     "presentation maker",
     "presentation outline",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

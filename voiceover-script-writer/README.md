@@ -1,17 +1,25 @@
-# Voiceover Script Writer — Claude Code bundle
+# Voiceover Script Writer
 
-Bundle cục bộ giai đoạn 2, chưa publish. Không sửa hoặc thay thế plugin ChatGPT.
+Voiceover Script Writer writes voiceover scripts for a target length, audience, platform and tone, checks timing and refines spoken lines.
 
-- MCP HTTPS dùng chung: `https://plugin.chat-prompt.com/m/88e674/mcp`
-- Offer mặc định đã kiểm source/runtime: **Murf**
-- Tool names đã thấy qua `initialize` + `tools/list`: `check_voiceover_timing`, `check_spoken_script`, `get_voiceover_studio_link`
-- Evidence probe: `outputs/claude_plugin_port_20261125/phase2_evidence/mcp_probe.json` (không gọi `tools/call`)
-- Skill: `skills/voiceover-script-writer/SKILL.md`
+## MCP endpoint
 
-Skill tạo artifact trước; nếu tool trả URL thật của offer đã xác minh, skill đưa đúng một CTA Markdown với disclosure đặt ngay trước. Bundle không chứa URL affiliate, credential hoặc widget OpenAI.
+`https://plugin.chat-prompt.com/m/88e674/mcp`
+
+## Tools
+
+- `check_voiceover_timing`: checks script duration
+- `check_spoken_script`: reviews spoken lines
+- `get_voiceover_studio_link`: returns a voiceover studio handoff link
+
+## Optional partner handoff
+
+After the main result, the skill may offer an optional next step with **Murf**. It uses only the URL returned by the tool call, places a financial disclosure sentence immediately before a single Markdown link, and never invents or modifies URLs. The plugin creator may earn a commission if you sign up through that link. The plugin itself contains no affiliate URLs or credentials.
 
 ## Install
 
 ```
 /plugin install voiceover-script-writer --marketplace hieulq0508g/toolmatch-claude-plugins
 ```
+
+Privacy: https://toolmatch.net/privacy | Support: https://toolmatch.net/support | Terms: https://toolmatch.net/terms

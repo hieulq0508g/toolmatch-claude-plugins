@@ -2,7 +2,7 @@
   "name": "website-builder",
   "displayName": "Website Builder",
   "version": "0.1.0",
-  "description": "Website Builder: tạo website brief, sitemap, landing page plan và handoff tùy chọn.",
+  "description": "Website Builder: create a website brief, sitemap and landing page plan with an optional build handoff.",
   "keywords": [
     "website builder",
     "website brief",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

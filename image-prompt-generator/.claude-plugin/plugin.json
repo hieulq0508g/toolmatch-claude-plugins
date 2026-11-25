@@ -2,7 +2,7 @@
   "name": "image-prompt-generator",
   "displayName": "Image Prompt Generator",
   "version": "0.1.0",
-  "description": "Image Prompt Generator: tạo và kiểm tra image prompt, chuẩn bị prompt cho portrait và headshot.",
+  "description": "Image Prompt Generator: create and check image prompts, and prepare portrait and headshot prompts with an optional generation handoff.",
   "keywords": [
     "image prompt generator",
     "image prompt",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

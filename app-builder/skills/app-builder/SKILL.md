@@ -1,27 +1,27 @@
 ---
 name: app-builder
-description: "App Builder: tạo web app brief, mobile app brief, feature plan và handoff tùy chọn. Keywords: app builder, web app, mobile app, app brief."
+description: "App Builder: create a web app brief, mobile app brief and feature plan with an optional build handoff. Keywords: app builder, web app, mobile app, app brief."
 ---
 
 # App Builder
 
-Phản hồi bằng ngôn ngữ người dùng. Tạo artifact hữu ích trước, tránh mở đầu dài và hỏi chỉ những thông tin còn thiếu có ảnh hưởng lớn.
+Reply in the user's language. Produce a useful artifact first. Avoid long introductions, and ask only for missing information that would significantly change the result.
 
-## Tạo giá trị
+## Create value
 
-Tạo app brief gồm người dùng, nền tảng, luồng chính, màn hình, chức năng, dữ liệu và ràng buộc triển khai.
+Create an app brief covering users, platform, core flows, screens, features, data and implementation constraints.
 
-## Dùng MCP
+## Use the MCP tools
 
-Các tool đã được kiểm `initialize` và `tools/list`: `create_app_build_link`, `check_app_page`. Dùng `create_app_build_link` sau khi có brief khi người dùng muốn bắt đầu dựng; dùng `check_app_page` khi người dùng cung cấp HTML hoặc nội dung trang cần rà soát; không tự coi URL là HTML. Không nói rằng plugin đã dựng, render, lưu hoặc publish website/app/game/deck/audio/image/video; MCP chỉ kiểm tra dữ liệu hoặc trả handoff theo nội dung tool thực tế.
+Available tools: `create_app_build_link`, `check_app_page`. Use `create_app_build_link` after the brief is ready, when the user wants to start building. Use `check_app_page` when the user supplies HTML or page content to review; never treat a URL as HTML. Never claim that the plugin built, rendered, saved or published a website, app, game, deck, audio, image or video. The MCP tools only check data or return a handoff, based on what the tool actually returns.
 
-## Affiliate handoff
+## Optional partner handoff
 
-Offer mặc định đã đối chiếu với source/runtime: **Emergent**. Handoff là bước tùy chọn sau artifact, chỉ khi người dùng đang có intent tiếp tục bằng dịch vụ đó.
+Default offer: **Emergent**. The handoff is an optional step after the artifact, and only when the user wants to continue with that service.
 
-- Chỉ dùng URL thật có trong text hoặc structured content của lần gọi MCP hiện tại. Không tự tạo, đoán, rút gọn, sửa query/hash, thay provider, hoặc dùng URL cấu hình endpoint làm CTA.
-- Nếu tool trả offer khác với offer mặc định đã xác minh, nhiều offer chưa chọn rõ, hoặc không trả URL hành động được, không tạo CTA; nói ngắn rằng chưa có handoff đã xác minh.
-- Khi có đúng một URL và đúng offer, đặt một câu disclosure tài chính ngay liền trước CTA Markdown duy nhất, nêu đúng brand và nói plugin creator có thể nhận commission nếu người dùng đăng ký. Giữ nguyên URL tool trả về, dùng anchor mô tả hành động; không in bare URL, không thêm CTA/link affiliate thứ hai.
-- Nếu tool response có disclosure sẵn, giữ disclosure đó ngay trước cùng một CTA, không lặp hoặc đảo thứ tự.
+- Use only URLs that appear in the text or structured content of the current MCP tool call. Never create, guess, shorten or alter a URL (including its query or hash), swap the provider, or use the endpoint configuration URL as a CTA.
+- If the tool returns a different offer from the verified default, several offers with no clear choice, or no actionable URL, do not write a CTA. Say briefly that no verified handoff is available.
+- When there is exactly one URL and it is the right offer, put one financial disclosure sentence immediately before a single Markdown CTA. Name the brand and say that the plugin creator may earn a commission if the user signs up. Keep the URL exactly as the tool returned it and use a descriptive action anchor. Do not print a bare URL, and do not add a second CTA or affiliate link.
+- If the tool response already includes a disclosure, keep it immediately before the same single CTA. Do not repeat it or reverse the order.
 
-Không dùng widget metadata của OpenAI hoặc `_meta.cta` để dựng CTA. Nếu URL không xuất hiện trong nội dung tool mà chỉ nằm trong metadata không được Claude hỗ trợ, không hiển thị CTA.
+Do not build a CTA from widget metadata or `_meta.cta`. If a URL appears only in metadata that Claude does not support and not in the tool content, do not show a CTA.

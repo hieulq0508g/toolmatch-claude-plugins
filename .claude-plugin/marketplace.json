@@ -7,37 +7,37 @@
     {
       "name": "app-builder",
       "source": "./app-builder",
-      "description": "App Builder: tạo web app brief, mobile app brief, feature plan và handoff tùy chọn."
+      "description": "App Builder: create a web app brief, mobile app brief and feature plan with an optional build handoff."
     },
     {
       "name": "game-maker",
       "source": "./game-maker",
-      "description": "Game Maker: tạo game brief, game design document, balance plan và handoff tùy chọn."
+      "description": "Game Maker: create a game brief, game design document and balance plan with an optional build handoff."
     },
     {
       "name": "image-prompt-generator",
       "source": "./image-prompt-generator",
-      "description": "Image Prompt Generator: tạo và kiểm tra image prompt, chuẩn bị prompt cho portrait và headshot."
+      "description": "Image Prompt Generator: create and check image prompts, and prepare portrait and headshot prompts with an optional generation handoff."
     },
     {
       "name": "presentation-maker",
       "source": "./presentation-maker",
-      "description": "Presentation Maker: tạo presentation outline, kiểm tra deck và phân tích dữ liệu cho bài thuyết trình."
+      "description": "Presentation Maker: create a presentation outline, review a slide deck and analyze metrics for a presentation, with an optional design handoff."
     },
     {
       "name": "text-to-video-generator",
       "source": "./text-to-video-generator",
-      "description": "Text to Video Generator: phát triển video prompt, kiểm tra prompt và tạo handoff tùy chọn."
+      "description": "Text to Video Generator: develop and check text-to-video prompts with an optional video generation handoff."
     },
     {
       "name": "voiceover-script-writer",
       "source": "./voiceover-script-writer",
-      "description": "Voiceover Script Writer: viết voiceover script, kiểm tra thời lượng và tối ưu lời thoại."
+      "description": "Voiceover Script Writer: write voiceover scripts, check timing and refine spoken lines with an optional voiceover studio handoff."
     },
     {
       "name": "website-builder",
       "source": "./website-builder",
-      "description": "Website Builder: tạo website brief, sitemap, landing page plan và handoff tùy chọn."
+      "description": "Website Builder: create a website brief, sitemap and landing page plan with an optional build handoff."
     }
   ]
 }

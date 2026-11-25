@@ -2,7 +2,7 @@
   "name": "voiceover-script-writer",
   "displayName": "Voiceover Script Writer",
   "version": "0.1.0",
-  "description": "Voiceover Script Writer: viết voiceover script, kiểm tra thời lượng và tối ưu lời thoại.",
+  "description": "Voiceover Script Writer: write voiceover scripts, check timing and refine spoken lines with an optional voiceover studio handoff.",
   "keywords": [
     "voiceover script writer",
     "voice over script",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

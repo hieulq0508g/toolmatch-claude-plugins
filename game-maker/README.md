@@ -1,17 +1,26 @@
-# Game Maker — Claude Code bundle
+# Game Maker
 
-Bundle cục bộ giai đoạn 2, chưa publish. Không sửa hoặc thay thế plugin ChatGPT.
+Game Maker creates game concepts and design documents (core loop, rules, progression, economy, content) and plans game balance.
 
-- MCP HTTPS dùng chung: `https://plugin.chat-prompt.com/game/mcp`
-- Offer mặc định đã kiểm source/runtime: **Emergent**
-- Tool names đã thấy qua `initialize` + `tools/list`: `make_game_design_doc`, `plan_game_balance`, `check_game_brief`, `create_game_build_link`
-- Evidence probe: `outputs/claude_plugin_port_20261125/phase2_evidence/mcp_probe.json` (không gọi `tools/call`)
-- Skill: `skills/game-maker/SKILL.md`
+## MCP endpoint
 
-Skill tạo artifact trước; nếu tool trả URL thật của offer đã xác minh, skill đưa đúng một CTA Markdown với disclosure đặt ngay trước. Bundle không chứa URL affiliate, credential hoặc widget OpenAI.
+`https://plugin.chat-prompt.com/game/mcp`
+
+## Tools
+
+- `make_game_design_doc`: drafts a game design document
+- `plan_game_balance`: plans game balance
+- `check_game_brief`: reviews a game brief
+- `create_game_build_link`: returns a build handoff link
+
+## Optional partner handoff
+
+After the main result, the skill may offer an optional next step with **Emergent**. It uses only the URL returned by the tool call, places a financial disclosure sentence immediately before a single Markdown link, and never invents or modifies URLs. The plugin creator may earn a commission if you sign up through that link. The plugin itself contains no affiliate URLs or credentials.
 
 ## Install
 
 ```
 /plugin install game-maker --marketplace hieulq0508g/toolmatch-claude-plugins
 ```
+
+Privacy: https://toolmatch.net/privacy | Support: https://toolmatch.net/support | Terms: https://toolmatch.net/terms

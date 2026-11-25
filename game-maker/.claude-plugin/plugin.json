@@ -2,7 +2,7 @@
   "name": "game-maker",
   "displayName": "Game Maker",
   "version": "0.1.0",
-  "description": "Game Maker: tạo game brief, game design document, balance plan và handoff tùy chọn.",
+  "description": "Game Maker: create a game brief, game design document and balance plan with an optional build handoff.",
   "keywords": [
     "game maker",
     "game design",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

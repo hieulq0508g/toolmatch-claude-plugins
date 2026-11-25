@@ -2,7 +2,7 @@
   "name": "app-builder",
   "displayName": "App Builder",
   "version": "0.1.0",
-  "description": "App Builder: tạo web app brief, mobile app brief, feature plan và handoff tùy chọn.",
+  "description": "App Builder: create a web app brief, mobile app brief and feature plan with an optional build handoff.",
   "keywords": [
     "app builder",
     "web app",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }

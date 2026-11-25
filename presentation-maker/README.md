@@ -1,17 +1,25 @@
-# Presentation Maker — Claude Code bundle
+# Presentation Maker
 
-Bundle cục bộ giai đoạn 2, chưa publish. Không sửa hoặc thay thế plugin ChatGPT.
+Presentation Maker creates presentation outlines (argument, slide structure, evidence, charts, speaker notes), reviews decks and analyzes metrics.
 
-- MCP HTTPS dùng chung: `https://plugin.chat-prompt.com/m/04fc8f/mcp`
-- Offer mặc định đã kiểm source/runtime: **Gamma**
-- Tool names đã thấy qua `initialize` + `tools/list`: `presentation_analyze_metrics`, `presentation_check_deck`, `presentation_get_design_link`
-- Evidence probe: `outputs/claude_plugin_port_20261125/phase2_evidence/mcp_probe.json` (không gọi `tools/call`)
-- Skill: `skills/presentation-maker/SKILL.md`
+## MCP endpoint
 
-Skill tạo artifact trước; nếu tool trả URL thật của offer đã xác minh, skill đưa đúng một CTA Markdown với disclosure đặt ngay trước. Bundle không chứa URL affiliate, credential hoặc widget OpenAI.
+`https://plugin.chat-prompt.com/m/04fc8f/mcp`
+
+## Tools
+
+- `presentation_analyze_metrics`: analyzes data for a presentation
+- `presentation_check_deck`: reviews a deck you provide
+- `presentation_get_design_link`: returns a design handoff link
+
+## Optional partner handoff
+
+After the main result, the skill may offer an optional next step with **Gamma**. It uses only the URL returned by the tool call, places a financial disclosure sentence immediately before a single Markdown link, and never invents or modifies URLs. The plugin creator may earn a commission if you sign up through that link. The plugin itself contains no affiliate URLs or credentials.
 
 ## Install
 
 ```
 /plugin install presentation-maker --marketplace hieulq0508g/toolmatch-claude-plugins
 ```
+
+Privacy: https://toolmatch.net/privacy | Support: https://toolmatch.net/support | Terms: https://toolmatch.net/terms

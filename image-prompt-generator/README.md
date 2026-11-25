@@ -1,17 +1,25 @@
-# Image Prompt Generator — Claude Code bundle
+# Image Prompt Generator
 
-Bundle cục bộ giai đoạn 2, chưa publish. Không sửa hoặc thay thế plugin ChatGPT.
+Image Prompt Generator writes and reviews image prompts (subject, composition, lighting, style, negative constraints) and prepares portrait and headshot prompts.
 
-- MCP HTTPS dùng chung: `https://plugin.chat-prompt.com/image/mcp`
-- Offer mặc định đã kiểm source/runtime: **OpenArt / BetterPic theo kết quả tool**
-- Tool names đã thấy qua `initialize` + `tools/list`: `check_image_prompt`, `create_image_generation_link`, `prepare_professional_headshot`
-- Evidence probe: `outputs/claude_plugin_port_20261125/phase2_evidence/mcp_probe.json` (không gọi `tools/call`)
-- Skill: `skills/image-prompt-generator/SKILL.md`
+## MCP endpoint
 
-Skill tạo artifact trước; nếu tool trả URL thật của offer đã xác minh, skill đưa đúng một CTA Markdown với disclosure đặt ngay trước. Bundle không chứa URL affiliate, credential hoặc widget OpenAI.
+`https://plugin.chat-prompt.com/image/mcp`
+
+## Tools
+
+- `check_image_prompt`: reviews an image prompt
+- `create_image_generation_link`: returns an image generation handoff link
+- `prepare_professional_headshot`: prepares a professional headshot prompt and handoff
+
+## Optional partner handoff
+
+After the main result, the skill may offer an optional next step with **OpenArt / BetterPic, depending on the tool result**. It uses only the URL returned by the tool call, places a financial disclosure sentence immediately before a single Markdown link, and never invents or modifies URLs. The plugin creator may earn a commission if you sign up through that link. The plugin itself contains no affiliate URLs or credentials.
 
 ## Install
 
 ```
 /plugin install image-prompt-generator --marketplace hieulq0508g/toolmatch-claude-plugins
 ```
+
+Privacy: https://toolmatch.net/privacy | Support: https://toolmatch.net/support | Terms: https://toolmatch.net/terms

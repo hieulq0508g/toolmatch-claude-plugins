@@ -2,7 +2,7 @@
   "name": "text-to-video-generator",
   "displayName": "Text to Video Generator",
   "version": "0.1.0",
-  "description": "Text to Video Generator: phát triển video prompt, kiểm tra prompt và tạo handoff tùy chọn.",
+  "description": "Text to Video Generator: develop and check text-to-video prompts with an optional video generation handoff.",
   "keywords": [
     "text to video generator",
     "video prompt",
@@ -13,5 +13,9 @@
     "name": "HIẾU QUANG LE"
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://toolmatch.net/privacy"
+  "privacyPolicyUrl": "https://toolmatch.net/privacy",
+  "homepage": "https://toolmatch.net",
+  "repository": "https://github.com/hieulq0508g/toolmatch-claude-plugins",
+  "supportUrl": "https://toolmatch.net/support",
+  "termsOfServiceUrl": "https://toolmatch.net/terms"
 }
