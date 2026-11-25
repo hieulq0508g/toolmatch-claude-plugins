@@ -1,0 +1,15 @@
+{
+  "name": "app-builder",
+  "displayName": "App Builder",
+  "version": "0.1.0",
+  "description": "App Builder: tạo web app brief, mobile app brief, feature plan và handoff tùy chọn.",
+  "keywords": [
+    "app builder",
+    "web app",
+    "mobile app",
+    "app brief"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

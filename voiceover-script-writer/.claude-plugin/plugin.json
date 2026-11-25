@@ -1,0 +1,15 @@
+{
+  "name": "voiceover-script-writer",
+  "displayName": "Voiceover Script Writer",
+  "version": "0.1.0",
+  "description": "Voiceover Script Writer: viết voiceover script, kiểm tra thời lượng và tối ưu lời thoại.",
+  "keywords": [
+    "voiceover script writer",
+    "voice over script",
+    "voiceover timing",
+    "spoken script"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "image-prompt-generator",
+  "displayName": "Image Prompt Generator",
+  "version": "0.1.0",
+  "description": "Image Prompt Generator: tạo và kiểm tra image prompt, chuẩn bị prompt cho portrait và headshot.",
+  "keywords": [
+    "image prompt generator",
+    "image prompt",
+    "visual prompt",
+    "headshot prompt"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

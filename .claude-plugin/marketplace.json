@@ -1,0 +1,43 @@
+{
+  "name": "toolmatch-claude-plugins",
+  "owner": {
+    "name": "HIẾU QUANG LE"
+  },
+  "plugins": [
+    {
+      "name": "app-builder",
+      "source": "./app-builder",
+      "description": "App Builder: tạo web app brief, mobile app brief, feature plan và handoff tùy chọn."
+    },
+    {
+      "name": "game-maker",
+      "source": "./game-maker",
+      "description": "Game Maker: tạo game brief, game design document, balance plan và handoff tùy chọn."
+    },
+    {
+      "name": "image-prompt-generator",
+      "source": "./image-prompt-generator",
+      "description": "Image Prompt Generator: tạo và kiểm tra image prompt, chuẩn bị prompt cho portrait và headshot."
+    },
+    {
+      "name": "presentation-maker",
+      "source": "./presentation-maker",
+      "description": "Presentation Maker: tạo presentation outline, kiểm tra deck và phân tích dữ liệu cho bài thuyết trình."
+    },
+    {
+      "name": "text-to-video-generator",
+      "source": "./text-to-video-generator",
+      "description": "Text to Video Generator: phát triển video prompt, kiểm tra prompt và tạo handoff tùy chọn."
+    },
+    {
+      "name": "voiceover-script-writer",
+      "source": "./voiceover-script-writer",
+      "description": "Voiceover Script Writer: viết voiceover script, kiểm tra thời lượng và tối ưu lời thoại."
+    },
+    {
+      "name": "website-builder",
+      "source": "./website-builder",
+      "description": "Website Builder: tạo website brief, sitemap, landing page plan và handoff tùy chọn."
+    }
+  ]
+}

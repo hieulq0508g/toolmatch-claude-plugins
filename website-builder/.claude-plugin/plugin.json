@@ -1,0 +1,15 @@
+{
+  "name": "website-builder",
+  "displayName": "Website Builder",
+  "version": "0.1.0",
+  "description": "Website Builder: tạo website brief, sitemap, landing page plan và handoff tùy chọn.",
+  "keywords": [
+    "website builder",
+    "website brief",
+    "landing page",
+    "sitemap"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

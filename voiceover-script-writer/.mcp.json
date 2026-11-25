@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "voiceover-script-writer": {
+      "type": "http",
+      "url": "https://plugin.chat-prompt.com/m/88e674/mcp"
+    }
+  }
+}

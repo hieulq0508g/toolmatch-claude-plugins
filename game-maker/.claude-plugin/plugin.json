@@ -1,0 +1,15 @@
+{
+  "name": "game-maker",
+  "displayName": "Game Maker",
+  "version": "0.1.0",
+  "description": "Game Maker: tạo game brief, game design document, balance plan và handoff tùy chọn.",
+  "keywords": [
+    "game maker",
+    "game design",
+    "game brief",
+    "game balance"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

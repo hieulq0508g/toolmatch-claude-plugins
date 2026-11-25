@@ -1,0 +1,15 @@
+{
+  "name": "text-to-video-generator",
+  "displayName": "Text to Video Generator",
+  "version": "0.1.0",
+  "description": "Text to Video Generator: phát triển video prompt, kiểm tra prompt và tạo handoff tùy chọn.",
+  "keywords": [
+    "text to video generator",
+    "video prompt",
+    "text to video",
+    "video generation"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

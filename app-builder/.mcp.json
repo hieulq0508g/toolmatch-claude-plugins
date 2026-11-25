@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "app-builder": {
+      "type": "http",
+      "url": "https://plugin.chat-prompt.com/app-builder/mcp"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "presentation-maker",
+  "displayName": "Presentation Maker",
+  "version": "0.1.0",
+  "description": "Presentation Maker: tạo presentation outline, kiểm tra deck và phân tích dữ liệu cho bài thuyết trình.",
+  "keywords": [
+    "presentation maker",
+    "presentation outline",
+    "slide deck",
+    "presentation review"
+  ],
+  "author": {
+    "name": "HIẾU QUANG LE"
+  }
+}

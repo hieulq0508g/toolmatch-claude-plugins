@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "presentation-maker": {
+      "type": "http",
+      "url": "https://plugin.chat-prompt.com/m/04fc8f/mcp"
+    }
+  }
+}
