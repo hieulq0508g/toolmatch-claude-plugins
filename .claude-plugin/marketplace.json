@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "app-builder",
+      "name": "app-builder-mobile-web",
       "source": "./app-builder",
       "description": "App Builder: create a web app brief, mobile app brief and feature plan with an optional build handoff."
     },

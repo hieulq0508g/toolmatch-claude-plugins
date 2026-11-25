@@ -1,6 +1,6 @@
 {
-  "name": "app-builder",
-  "displayName": "App Builder",
+  "name": "app-builder-mobile-web",
+  "displayName": "App Builder for Mobile & Web",
   "version": "0.1.0",
   "description": "App Builder: create a web app brief, mobile app brief and feature plan with an optional build handoff.",
   "keywords": [

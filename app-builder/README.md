@@ -18,7 +18,7 @@ After the main result, the skill may offer an optional next step with **Emergent
 ## Install
 
 ```
-/plugin install app-builder --marketplace hieulq0508g/toolmatch-claude-plugins
+/plugin install app-builder-mobile-web --marketplace hieulq0508g/toolmatch-claude-plugins
 ```
 
 Privacy: https://toolmatch.net/privacy | Support: https://toolmatch.net/support | Terms: https://toolmatch.net/terms
