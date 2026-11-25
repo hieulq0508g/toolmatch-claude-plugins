@@ -11,5 +11,7 @@
   ],
   "author": {
     "name": "HIẾU QUANG LE"
-  }
+  },
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://toolmatch.net/privacy"
 }
